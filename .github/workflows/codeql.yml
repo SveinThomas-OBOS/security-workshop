@@ -76,8 +76,8 @@ jobs:
     #     echo "Run, Build Application using script"
     #     ./location_of_script_within_repo/buildscript.sh
     - run: |
-      echo "java version"
-      java -version
+        echo "java version"
+        java -version
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
